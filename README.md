@@ -1,8 +1,10 @@
 Copy Profile Add-on Firefox on Android
 ============================================
 
-This add-on adds a "Copy Profile" menuitem to your Firefox for Android menu,
-which will copy your Firefox profile to /sdcard/mozilla_profile.
+This add-on adds a "Copy Profile" menu item to your Firefox for Android menu,
+which will copy your Firefox profile to your sdcard.
 
-To get your profile onto your desktop, run:
-adb pull /sdcard/mozilla_profile [<target directory>]
+After hitting this menu item, to get your profile onto your desktop, run:
+```	
+adb pull /sdcard/mozilla_profile [target directory]
+```
