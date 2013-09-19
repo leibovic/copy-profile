@@ -8,3 +8,5 @@ After hitting this menu item, to get your profile onto your desktop, run:
 ```	
 adb pull /sdcard/mozilla_profile [target directory]
 ```
+
+Available on [addons.mozilla.org](https://addons.mozilla.org/en-US/android/addon/copy-profile/).
